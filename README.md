@@ -39,7 +39,7 @@ Clone this repository to build and deploy this application
    ```
 
 Verify pods, services created for that respective deployment.
-Screenshot
+<img width="1023" alt="svc_ingress_pods" src="https://user-images.githubusercontent.com/11732564/88911511-cb489f80-d212-11ea-807e-a3c73957c2c2.png">
 
 
 ## Verify the url for custom metrics
@@ -59,6 +59,7 @@ Screenshot
 
 ### Metrics view From
 # Prometheus  
-Screenshot
+<img width="1637" alt="Prometheus_pod" src="https://user-images.githubusercontent.com/11732564/88911495-c84daf00-d212-11ea-8c10-218ac3738127.png">
+
 # Grafana
-Screenshot
+<img width="1634" alt="Grafana_pod" src="https://user-images.githubusercontent.com/11732564/88911504-c97edc00-d212-11ea-9dc3-4e7d6f32ae09.png">
