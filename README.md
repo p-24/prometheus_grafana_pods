@@ -19,9 +19,9 @@ Clone this repository to build and deploy this application
 1. docs - Reference Images
 2. k8s/config-map.yml - Create a Prometheus config map with all the scrape config and alerting rules
 3. k8s/deployment.yml - Deployment file used to create Python-flask-app deployment
-4. k8s/grafana-claim-persistentvolumeclaim.yml -
-5. k8s/grafana-deployment.yml -
-6. k8s/grafana-service.yml -
+4. k8s/grafana-claim-persistentvolumeclaim.yml - PersistentVolumeClaim created for grafana pod
+5. k8s/grafana-deployment.yml - Flask application deployment file
+6. k8s/grafana-service.yml - To expose the flask application
 7. k8s/ingress-service.yml - Traffic routing is controlled by rules defined in this Ingress resource. (prometheus.local, grafana.local URLs created)
 8. k8s/prometheus-server.yml - In this configuration, we are mounting the Prometheus config map as file inside /etc/prometheus and also exposing Prometheus dashboard as Kubernetes service
 9. k8s/service.yml - Service file used to create Kubernetes deployment. Here NodePort.
