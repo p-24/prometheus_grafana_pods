@@ -2,6 +2,8 @@
 > Kubernetes Cluster to monitor internet urls and provide Prometheus metrics via Grafana
 
 This Project is extension from https://github.com/p-24/prometheus_api_metrics
+* Separate pods created for Prometheus and Grafana
+* They have been accessed via Ingress rules 
 
 
 ## Getting started
