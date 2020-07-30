@@ -65,8 +65,8 @@ Verify pods, services created for that respective deployment.
 
 
 ## Metrics view From
-# Prometheus  
+### Prometheus  
 <img width="1637" alt="Prometheus_pod" src="https://user-images.githubusercontent.com/11732564/88911495-c84daf00-d212-11ea-8c10-218ac3738127.png">
 
-# Grafana
+### Grafana
 <img width="1634" alt="Grafana_pod" src="https://user-images.githubusercontent.com/11732564/88911504-c97edc00-d212-11ea-9dc3-4e7d6f32ae09.png">
