@@ -27,14 +27,14 @@ Clone this repository to build and deploy this application
 9. k8s/service.yml - Service file used to create Kubernetes deployment. Here NodePort.
 
 
-### Building And Deploying
+## Building And Deploying
 
-## Firstly enable ingress in Minikube:
+### Firstly enable ingress in Minikube:
    ```
    minikube addons enable ingress
    ```
 
-## Create Deployment and Service for both Prometheus and Grafana.
+### Create Deployment and Service for both Prometheus and Grafana.
    ```kubectl apply -f k8s/deployment.yml
       kubectl apply -f k8s/service.yml
       kubectl apply -f k8s/ingress-service.yml
@@ -64,7 +64,7 @@ Verify pods, services created for that respective deployment.
   ```
 
 
-### Metrics view From
+## Metrics view From
 # Prometheus  
 <img width="1637" alt="Prometheus_pod" src="https://user-images.githubusercontent.com/11732564/88911495-c84daf00-d212-11ea-8c10-218ac3738127.png">
 
