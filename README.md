@@ -27,7 +27,7 @@ Clone this repository to build and deploy this application
 
 ### Building And Deploying
 
-# Create Deployment and Service for both Prometheus and Grafana.
+## Create Deployment and Service for both Prometheus and Grafana.
    ```kubectl apply -f k8s/deployment.yml
       kubectl apply -f k8s/service.yml
       kubectl apply -f k8s/ingress-service.yml
