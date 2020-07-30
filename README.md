@@ -49,16 +49,16 @@ Verify pods, services created for that respective deployment.
 <img width="1023" alt="svc_ingress_pods" src="https://user-images.githubusercontent.com/11732564/88911511-cb489f80-d212-11ea-807e-a3c73957c2c2.png">
 
 
-## Verify the url for custom metrics
+### Verify the url for custom metrics
   ```
   http://<HOST IP>:30000/metrics
   ```
 
-##Verify the url for prometheus dashboard
+### Verify the url for prometheus dashboard
  ```
    http://prometheus.local
   ```   
-##Verify the url for grafana dashboard
+### Verify the url for grafana dashboard
   ```
   http://grafana.local
   ```
