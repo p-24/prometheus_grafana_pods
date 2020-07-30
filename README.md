@@ -29,6 +29,11 @@ Clone this repository to build and deploy this application
 
 ### Building And Deploying
 
+## Firstly enable ingress in Minikube:
+   ```
+   minikube addons enable ingress
+   ```
+
 ## Create Deployment and Service for both Prometheus and Grafana.
    ```kubectl apply -f k8s/deployment.yml
       kubectl apply -f k8s/service.yml
