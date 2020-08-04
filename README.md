@@ -48,6 +48,9 @@ Clone this repository to build and deploy this application
 Verify pods, services created for that respective deployment.
 <img width="1023" alt="svc_ingress_pods" src="https://user-images.githubusercontent.com/11732564/88911511-cb489f80-d212-11ea-807e-a3c73957c2c2.png">
 
+### Ingress setup on localhost 
+You can see 2 routing rules: Grafana and Prometheus. Grafana will be open on URL grafana.local, Prometheus on URL prometheus.local. You should modify the host’s file on your PC. Add this line:
+<minikube ip> grafana.local, prometheus.local
 
 ### Verify the url for custom metrics
   ```
